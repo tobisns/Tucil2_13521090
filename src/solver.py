@@ -72,6 +72,6 @@ def findNearestPairDNC(pointSpace, dimension) :
 
 
 if __name__ == "__main__" :
-    a = point.pointSpace(3, 16)
+    a = point.pointSpace(100, 1600)
     print(findNearestPairBF(a, 3))
     print(findNearestPairDNC(a, 3))

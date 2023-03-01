@@ -17,7 +17,7 @@ def pointSpace(dimension, amount) :
 def getEuclideanDistance(point1, point2, dimension):
     distance = 0
     for i in range(0, dimension):
-        distance += point1[i]**2
+        distance += (point1[i]-point2[i])**2
 
     return distance**0.5
 
