@@ -1,0 +1,24 @@
+selamat datang pada program mencari jarak terdekat...
+
+silahkan menentukan banyak dimensi ruang titik :
+5
+tentukan banyak titik pada ruang : 
+1001
+input recoreded. . .
+
+processing . . .
+
+a solution found using brute force are :
+
+point [-84.4058818220764, 75.50989010767387, -49.83721078519525, 46.17210992813858, 94.14985158591688]
+and point [-78.2487299155749, 77.03375350997814, -53.453114368091484, 50.54326464678428, 95.69411062660217]
+which was 8.648651198221373 units appart
+and took 500500 process and 0.8808610439300537 seconds.
+
+
+another solution found using divide and conquer are :
+
+point [-84.4058818220764, 75.50989010767387, -49.83721078519525, 46.17210992813858, 94.14985158591688] 
+and point [-78.2487299155749, 77.03375350997814, -53.453114368091484, 50.54326464678428, 95.69411062660217]
+which was 8.648651198221373 units appart
+and took 146572 process and 0.3057994842529297 seconds.
