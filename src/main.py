@@ -1,6 +1,7 @@
 import solver
 import point
 import time
+import display
 
 class DimensionError(Exception):
     "raised when dimension lower than one.\n"
@@ -56,3 +57,5 @@ print("another solution found using divide and conquer are :\n")
 print("point", p1DNC, "\nand point", p2DNC)
 print("which was", minDistanceDNC, "units appart")
 print("and took", countProcDNC, "process and", t2-t1, "seconds.\n\n")
+
+display.plot_3d(space, p1DNC, p2DNC)
