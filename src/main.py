@@ -1,5 +1,6 @@
 import solver
 import point
+import time
 
 class DimensionError(Exception):
     "raised when dimension lower than one.\n"
@@ -40,15 +41,18 @@ print("processing . . .\n")
 
 space = point.pointSpace(dimension, amount)
 
+t1 = time.time()
 minDistanceBF, p1BF, p2BF, countProcBF = solver.findNearestPairBF(space, dimension)
-minDistanceDNC, p1DNC, p2DNC, countProcDNC = solver.findNearestPairDNC(space, dimension)
-
+t2 = time.time()
 print("a solution found using brute force are :\n")
 print("point", p1BF, "\nand point", p2BF)
 print("which was", minDistanceBF, "units appart")
-print("and took", countProcBF, "process.\n\n")
+print("and took", countProcBF, "process and", t2-t1, "seconds.\n\n")
 
+t1 = time.time()
+minDistanceDNC, p1DNC, p2DNC, countProcDNC = solver.findNearestPairDNC(space, dimension)
+t2 = time.time()
 print("another solution found using divide and conquer are :\n")
 print("point", p1DNC, "\nand point", p2DNC)
 print("which was", minDistanceDNC, "units appart")
-print("and took", countProcDNC, "process.\n\n")
+print("and took", countProcDNC, "process and", t2-t1, "seconds.\n\n")

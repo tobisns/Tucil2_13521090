@@ -44,7 +44,7 @@ def mergeSort(left, right, arr, dimension=0) :
     return arr
 
 if __name__ == "__main__" :
-    a = [[1,2],[3,2],[2,5]]
+    a = [[1,2],[3,2],[2,5],[2,3]]
 
     a = sort(a)
 

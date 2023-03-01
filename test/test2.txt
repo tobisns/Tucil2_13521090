@@ -1,0 +1,22 @@
+silahkan menentukan banyak dimensi ruang titik :
+3
+tentukan banyak titik pada ruang : 
+65
+input recoreded. . .
+
+processing . . .
+
+a solution found using brute force are :
+
+point [36.45189926444348, 32.33605982227559, 38.57259578548769]
+and point [40.08036058096869, 42.001519550797155, 45.332721916834885]
+which was 12.340427407546109 units appart
+and took 2080 process and 0.0028073787689208984 seconds.
+
+
+another solution found using divide and conquer are :
+
+point [36.45189926444348, 32.33605982227559, 38.57259578548769]
+and point [40.08036058096869, 42.001519550797155, 45.332721916834885]
+which was 12.340427407546109 units appart
+and took 133 process and 0.0019867420196533203 seconds.
